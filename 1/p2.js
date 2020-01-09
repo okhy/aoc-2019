@@ -9,6 +9,5 @@ const totalFuelRequirement = moduleMassList.reduce((acc, mass) => {
 }, 0)
 
 module.exports = {
-  calculateFuelRequirement,
-  totalFuelRequirement
+  calculateFuelRequirement
 }
